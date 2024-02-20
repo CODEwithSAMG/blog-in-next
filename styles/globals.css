@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-wrapper {
+  max-width: 800px; /* Set maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Add some padding to the sides */
+  width: 100%; /* Ensure it takes full width of its container */
+}
+
+/* Example of making it responsive */
+@media (max-width: 768px) {
+  .content-wrapper {
+    max-width: 90%; /* Reduce width on smaller screens */
+    padding: 0 10px; /* Adjust padding accordingly */
+  }
+}
