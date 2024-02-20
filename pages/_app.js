@@ -4,7 +4,7 @@ import "../styles/globals.css"
 const MyApp = ({ Component, pageProps }) => {
     return <>
         <Navbar />
-        <div className="content-wrapper shadow-sm">
+        <div className="content-wrapper">
             <Component {...pageProps} />
         </div>
     </>

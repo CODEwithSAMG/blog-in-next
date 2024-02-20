@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .content-wrapper {
-  max-width: 800px; /* Set maximum width */
-  margin: 0 auto; /* Center the content horizontally */
-  padding: 0 20px; /* Add some padding to the sides */
+  max-width: 1300px; /* Set maximum width */
+  margin: 4rem auto; /* Center the content horizontally */
+  padding: 10px 20px; /* Add some padding to the sides */
   width: 100%; /* Ensure it takes full width of its container */
 }
 
